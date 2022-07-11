@@ -1,5 +1,5 @@
-use <scad-utils/transformations.scad>    // https://github.com/openscad/scad-utils
-use <list-comprehension-demos/skin.scad> // https://github.com/openscad/list-comprehension-demos
+use <../../scad-utils/transformations.scad>    // https://github.com/openscad/scad-utils
+use <../../list-comprehension-demos/skin.scad> // https://github.com/openscad/list-comprehension-demos
 
 // radial scaling function for tapered lead-in and lead-out
 function lilo_taper(x,N,tapered_fraction) = 
